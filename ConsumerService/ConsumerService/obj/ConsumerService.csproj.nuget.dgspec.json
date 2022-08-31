@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SampleProjects\\Polly Patterns\\ConsumerService\\ConsumerService\\ConsumerService\\ConsumerService.csproj": {}
+  },
+  "projects": {
+    "C:\\SampleProjects\\Polly Patterns\\ConsumerService\\ConsumerService\\ConsumerService\\ConsumerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SampleProjects\\Polly Patterns\\ConsumerService\\ConsumerService\\ConsumerService\\ConsumerService.csproj",
+        "projectName": "ConsumerService",
+        "projectPath": "C:\\SampleProjects\\Polly Patterns\\ConsumerService\\ConsumerService\\ConsumerService\\ConsumerService.csproj",
+        "packagesPath": "C:\\Users\\SALIH.CEYLAN\\.nuget\\packages\\",
+        "outputPath": "C:\\SampleProjects\\Polly Patterns\\ConsumerService\\ConsumerService\\ConsumerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SALIH.CEYLAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\AXHQERPDEV01\\nuget": {},
+          "\\\\lcw_fileserver\\TFW\\HrNugetServer": {},
+          "\\\\lcw_fileserver\\tfw\\FWNugetServer": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/cs_nuget/nuget/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/CounterStrike/_packaging/pars_core_nuget/nuget/v3/index.json": {},
+          "https://azuredevops.lcwaikiki.com/HR/_packaging/HR_Packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

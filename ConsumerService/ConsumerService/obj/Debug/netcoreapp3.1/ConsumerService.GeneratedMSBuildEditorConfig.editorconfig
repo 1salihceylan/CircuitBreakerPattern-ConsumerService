@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ConsumerService
+build_property.ProjectDir = C:\SampleProjects\Polly Patterns\ConsumerService\ConsumerService\ConsumerService\
